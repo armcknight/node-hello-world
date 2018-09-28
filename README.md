@@ -14,21 +14,23 @@ A simple Hello, World! server app using Node deployable locally and on Heroku.
 ## Create from scratch
 
 ```sh
-# write the server code to file
-echo "const http = require('http');
+# start new app
+npm init --yes
 
-const hostname = '127.0.0.1';
-const port = 3000;
+# add express module
+npm install express
 
-const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello World\n');
-});
+# gitignore node modules
+echo "node_modules/" > .gitignore
 
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
-});" > app.js
+# write the server code
+echo "const express = require('express')
+const app = express()
+const port = 3000
+
+app.get('/', (req, res) => res.send('Hello World!'))
+
+app.listen(port, () => console.log(`Example app listening on port ${port}!`))" > app.js
 
 # make a Profile and package.json for Heroku
 echo "web: node app.js" > Procfile
@@ -59,6 +61,7 @@ open http://localhost:3000
 
 ```sh
 heroku create # make sure your ‘heroku’ git remote points to the correct app's git url, like if there was a previous one
+heroku config:set HOST=
 git push heroku master
 heroku open
 ```
