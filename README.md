@@ -67,6 +67,7 @@ heroku open
 ## References
 
 - [How do I start with Node.js after I installed it?](https://nodejs.org/en/docs/guides/getting-started-guide/)
+- [Hello world example](http://expressjs.com/en/starter/hello-world.html)
 - [Getting Started on Heroku with Node.js](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
 
 > References are archived as PDFs in `docs/`.
