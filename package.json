@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "A simple Hello, World! server app using Node deployable locally and on Heroku.",
   "main": "app.js",
-  "directories": {},
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

@@ -33,6 +33,10 @@ server.listen(port, hostname, () => {
 # make a Profile and package.json for Heroku
 echo "web: node app.js" > Procfile
 npm init --yes
+
+# add the command to start node in package.json
+sed -i '' 's/   \"scripts\": \{/  \"scripts\": \{\
+    \"start\": \"node index.js\",/g' package.json
 ```
 
 ## Deployment
