@@ -1,0 +1,21 @@
+{
+  "name": "node-hello-world",
+  "version": "1.0.0",
+  "description": "A simple Hello, World! server app using Node deployable locally and on Heroku.",
+  "main": "app.js",
+  "directories": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armcknight/node-hello-world.git"
+  },
+  "keywords": [],
+  "author": "Andrew McKnight <andrew@tworingsoft.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/armcknight/node-hello-world/issues"
+  },
+  "homepage": "https://github.com/armcknight/node-hello-world#readme"
+}
