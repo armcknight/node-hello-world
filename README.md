@@ -1,13 +1,13 @@
 # node-hello-world
 
-A simple Hello, World! server app using Node deployable locally and on Heroku.
+A simple Hello, World! server app using Node.js and Express.js deployable locally and on Heroku.
 
 ## Requirements
 
 - [git](https://git-scm.com)
 - [homebrew](https://brew.sh)
 - [node](https://nodejs.org)
-- [heroku-cli]()
+- [heroku cli](https://devcenter.heroku.com/articles/heroku-cli)
 
 > Assuming you already have git and Homebrew, `brew install node heroku-cli`
 
