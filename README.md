@@ -71,3 +71,11 @@ heroku open
 - [Getting Started on Heroku with Node.js](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
 
 > References are archived as PDFs in `docs/`.
+
+# Contribute
+
+Issues and pull requests are welcome! 
+
+If this project helped you, please consider <a href="https://www.paypal.me/armcknight">leaving a tip</a> 🤗
+
+Do you need help with a project? [I'm currently available for hire or contract.](http://tworingsoft.com/contracts).
